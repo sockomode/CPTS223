@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.23)
+project(MA1_Lin)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -Wall")
+set(CMAKE_BUILD_TYPE Debug)
+add_executable(MA1_Lin main.cpp testQueue.cpp testQueue.hpp queue.hpp queue.cpp)
